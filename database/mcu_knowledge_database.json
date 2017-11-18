@@ -22978,6 +22978,132 @@
   ]
  }, 
  {
+  "vendor": "AmbiqMicro", 
+  "name": "AMAPH1KK-KBR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x40000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo2.svd", 
+  "rom": [
+   {
+    "size": "0x100000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
+  "vendor": "AmbiqMicro", 
+  "name": "AMAPH1KK-KCR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x40000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo2.svd", 
+  "rom": [
+   {
+    "size": "0x100000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
+  "vendor": "AmbiqMicro", 
+  "name": "APOLLO256-KBR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x08000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo1.svd", 
+  "rom": [
+   {
+    "size": "0x40000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
+  "vendor": "AmbiqMicro", 
+  "name": "APOLLO256-KCR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x08000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo1.svd", 
+  "rom": [
+   {
+    "size": "0x40000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
+  "vendor": "AmbiqMicro", 
+  "name": "APOLLO512-KBR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x10000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo1.svd", 
+  "rom": [
+   {
+    "size": "0x80000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
+  "vendor": "AmbiqMicro", 
+  "name": "APOLLO512-KCR", 
+  "family": "Apollo Series", 
+  "ram": [
+   {
+    "size": "0x10000", 
+    "name": "IRAM1", 
+    "address": "0x10000000"
+   }
+  ], 
+  "cpu_core": "ARM Cortex-M4", 
+  "svd_file": "apollo1.svd", 
+  "rom": [
+   {
+    "size": "0x80000", 
+    "name": "IROM1", 
+    "address": "0x00000000"
+   }
+  ]
+ }, 
+ {
   "vendor": "AnalogDevices", 
   "name": "ADSP-CM419F", 
   "family": "CM41x Mixed Signal Control Processors", 
