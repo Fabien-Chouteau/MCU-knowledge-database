@@ -4,19 +4,25 @@ import os
 import os.path
 from xml.dom import minidom
 
-def update_proc_info(proc_info, proc_node):
-    core = proc_node.getAttribute('Dcore')
-    if core != "":
-        proc_info['core'] = core
+def update_proc_info(proc_info, node):
+    processor = node.getElementsByTagName('processor')
+    if len(processor) != 0:
+        core = processor[0].getAttribute('Dcore')
+        if core != "":
+            proc_info['core'] = core
 
-def parse_device(mcus, node, vendor_id, familyname, proc_info):
+def update_debug_info(debug_info, node):
+    debug = node.getElementsByTagName('debug')
+    if len(debug) > 0:
+        svd = debug[0].getAttribute('svd')
+        if svd != "":
+            debug_info['svd'] = svd.replace('\\', '/')
+
+def parse_device(mcus, node, vendor_id, familyname, proc_info, debug_info):
 
     mcu_name  = node.getAttribute('Dname')
 
-    processor = node.getElementsByTagName('processor')
-    if len (processor) != 0:
-        update_proc_info(proc_info, processor[0])
-
+    update_proc_info(proc_info, node)
 
     if 'core' not in proc_info:
         print "no core for this MCU: " + mcu_name
@@ -27,9 +33,10 @@ def parse_device(mcus, node, vendor_id, familyname, proc_info):
     if core.startswith('Cortex'):
         core = "ARM " + core
 
-    debug = node.getElementsByTagName('debug')
-    if len(debug) > 0:
-        svdfile   = os.path.basename(debug[0].getAttribute('svd'))
+    update_debug_info(debug_info, node)
+
+    if 'svd' in debug_info:
+        svdfile   = os.path.basename(debug_info['svd'])
     else:
         svdfile   = ''
 
@@ -98,10 +105,10 @@ def extract(pdsc_dir, mcus):
             subfamilylist = family.getElementsByTagName('subFamily')
 
             proc_info = {}
+            debug_info = {}
+            update_debug_info(debug_info, family)
 
-            processor  = family.getElementsByTagName('processor')
-            if len(processor) != 0:
-                update_proc_info(proc_info, processor[0])
+            update_proc_info(proc_info, family)
 
             if len(subfamilylist) == 0:
                 familyname = family.getAttribute('Dfamily')
@@ -110,17 +117,18 @@ def extract(pdsc_dir, mcus):
                 if familyname.startswith("ARM"):
                     continue
 
+                update_debug_info(debug_info, family)
+
                 mculist = family.getElementsByTagName('device')
                 for mcu_node in mculist:
-                    parse_device(mcus, mcu_node, vendor_id, familyname, proc_info)
+                    parse_device(mcus, mcu_node, vendor_id, familyname, proc_info, debug_info)
             else:
                 for subfamily in subfamilylist:
                     familyname = subfamily.getAttribute('DsubFamily')
 
-                    processor  = subfamily.getElementsByTagName('processor')
-                    if len(processor) != 0:
-                        update_proc_info(proc_info, processor[0])
+                    update_debug_info(debug_info, subfamily)
+                    update_proc_info(proc_info, subfamily)
 
                     mculist = subfamily.getElementsByTagName('device')
                     for mcu_node in mculist:
-                        parse_device(mcus, mcu_node, vendor_id, familyname, proc_info)
+                        parse_device(mcus, mcu_node, vendor_id, familyname, proc_info, debug_info)

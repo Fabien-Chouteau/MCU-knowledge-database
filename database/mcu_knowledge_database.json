@@ -11,7 +11,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "AC30M1x64.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -32,7 +32,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "AC30M1x64.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -53,7 +53,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "AC30M1x64.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -74,7 +74,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "AC30M1x64.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -95,7 +95,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "CM41x_M0.svd", 
   "rom": []
  }, 
  {
@@ -209,7 +209,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F100.svd", 
+  "svd_file": "SN32F100.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -230,7 +230,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F100.svd", 
+  "svd_file": "SN32F100.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -251,7 +251,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F100.svd", 
+  "svd_file": "SN32F100.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -272,7 +272,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -293,7 +293,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -314,7 +314,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -335,7 +335,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -356,7 +356,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -377,7 +377,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -398,7 +398,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -419,7 +419,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -440,7 +440,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -461,7 +461,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240.svd", 
+  "svd_file": "SN32F240.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -482,7 +482,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240B.svd", 
+  "svd_file": "SN32F240B.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -503,7 +503,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240B.svd", 
+  "svd_file": "SN32F240B.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -524,7 +524,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240B.svd", 
+  "svd_file": "SN32F240B.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -545,7 +545,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F240B.svd", 
+  "svd_file": "SN32F240B.svd", 
   "rom": [
    {
     "size": "0xFFFC", 
@@ -566,7 +566,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -587,7 +587,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -608,7 +608,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -629,7 +629,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -650,7 +650,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -671,7 +671,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F260.svd", 
+  "svd_file": "SN32F260.svd", 
   "rom": [
    {
     "size": "0x77FC", 
@@ -692,7 +692,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700.svd", 
+  "svd_file": "SN32F700.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -713,7 +713,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700.svd", 
+  "svd_file": "SN32F700.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -734,7 +734,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700.svd", 
+  "svd_file": "SN32F700.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -755,7 +755,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700B.svd", 
+  "svd_file": "SN32F700B.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -776,7 +776,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700B.svd", 
+  "svd_file": "SN32F700B.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -797,7 +797,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F700B.svd", 
+  "svd_file": "SN32F700B.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -818,7 +818,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -839,7 +839,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -860,7 +860,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -881,7 +881,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -902,7 +902,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -923,7 +923,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -944,7 +944,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -965,7 +965,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -986,7 +986,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1007,7 +1007,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760.svd", 
+  "svd_file": "SN32F760.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1028,7 +1028,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1049,7 +1049,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1070,7 +1070,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1091,7 +1091,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1112,7 +1112,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1133,7 +1133,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F760B.svd", 
+  "svd_file": "SN32F760B.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -1154,7 +1154,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F770.svd", 
+  "svd_file": "SN32F770.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -1175,7 +1175,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F770.svd", 
+  "svd_file": "SN32F770.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -1196,7 +1196,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F770.svd", 
+  "svd_file": "SN32F770.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -1217,7 +1217,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F770.svd", 
+  "svd_file": "SN32F770.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -1238,7 +1238,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\SN32F770.svd", 
+  "svd_file": "SN32F770.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -3527,7 +3527,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0x9000", 
@@ -3553,7 +3553,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0x8000", 
@@ -3579,7 +3579,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0xC000", 
@@ -3605,7 +3605,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0xB000", 
@@ -3631,7 +3631,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0xF000", 
@@ -3657,7 +3657,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0xF000", 
@@ -3683,7 +3683,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "SVD\\TLE984x.svd", 
+  "svd_file": "TLE984x.svd", 
   "rom": [
    {
     "size": "0xB000", 
@@ -5929,7 +5929,7 @@
   "family": "Z32F0642", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "Z32F0642.svd", 
   "rom": []
  }, 
  {
@@ -5938,7 +5938,7 @@
   "family": "Z32F0642", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "Z32F0642.svd", 
   "rom": []
  }, 
  {
@@ -5953,7 +5953,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -5974,7 +5974,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -5995,7 +5995,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -6016,7 +6016,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x30000", 
@@ -6037,7 +6037,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -6058,7 +6058,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -6079,7 +6079,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -6100,7 +6100,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -6121,7 +6121,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M0", 
-  "svd_file": "", 
+  "svd_file": "nrf51.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -14136,7 +14136,7 @@
   "family": "AC33GA256", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33GA256.svd", 
   "rom": []
  }, 
  {
@@ -14145,7 +14145,7 @@
   "family": "AC33MA384A", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33Mx384A.svd", 
   "rom": []
  }, 
  {
@@ -14154,7 +14154,7 @@
   "family": "AC33Mx064", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33Mx064.svd", 
   "rom": []
  }, 
  {
@@ -14163,7 +14163,7 @@
   "family": "AC33Mx064", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33Mx064.svd", 
   "rom": []
  }, 
  {
@@ -14172,7 +14172,7 @@
   "family": "AC33Mx128", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33Mx128.svd", 
   "rom": []
  }, 
  {
@@ -14181,7 +14181,7 @@
   "family": "AC33Mx128", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "AC33Mx128.svd", 
   "rom": []
  }, 
  {
@@ -14248,7 +14248,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14269,7 +14269,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14290,7 +14290,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14311,7 +14311,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14332,7 +14332,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14353,7 +14353,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14374,7 +14374,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14395,7 +14395,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14416,7 +14416,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14437,7 +14437,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14458,7 +14458,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14479,7 +14479,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14500,7 +14500,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14521,7 +14521,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14542,7 +14542,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14563,7 +14563,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14584,7 +14584,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14605,7 +14605,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14626,7 +14626,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14647,7 +14647,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14668,7 +14668,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -14689,7 +14689,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -14710,7 +14710,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -14731,7 +14731,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00004000", 
@@ -14752,7 +14752,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00008000", 
@@ -14773,7 +14773,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -14794,7 +14794,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -14815,7 +14815,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00004000", 
@@ -14836,7 +14836,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00008000", 
@@ -14857,7 +14857,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -14878,7 +14878,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00004000", 
@@ -14899,7 +14899,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00008000", 
@@ -14920,7 +14920,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -14941,7 +14941,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00004000", 
@@ -14962,7 +14962,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00008000", 
@@ -14983,7 +14983,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -15004,7 +15004,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00020000", 
@@ -15025,7 +15025,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00004000", 
@@ -15046,7 +15046,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00008000", 
@@ -15067,7 +15067,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "GD32F1x0.svd", 
   "rom": [
    {
     "size": "0x00010000", 
@@ -22580,7 +22580,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE986x.svd", 
+  "svd_file": "TLE986x.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -22606,7 +22606,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE986x.svd", 
+  "svd_file": "TLE986x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22632,7 +22632,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE986x.svd", 
+  "svd_file": "TLE986x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22658,7 +22658,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE986x.svd", 
+  "svd_file": "TLE986x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22684,7 +22684,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE986x.svd", 
+  "svd_file": "TLE986x.svd", 
   "rom": [
    {
     "size": "0x1EFFC", 
@@ -22710,7 +22710,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0x7FFC", 
@@ -22736,7 +22736,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0xAFFC", 
@@ -22762,7 +22762,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22788,7 +22788,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22814,7 +22814,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0xEFFC", 
@@ -22840,7 +22840,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0x1EFFC", 
@@ -22866,7 +22866,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0x1EFFC", 
@@ -22892,7 +22892,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "SVD\\TLE987x.svd", 
+  "svd_file": "TLE987x.svd", 
   "rom": [
    {
     "size": "0x1EFFC", 
@@ -22912,7 +22912,7 @@
   "family": "Z32F0641", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "Z32F0641.svd", 
   "rom": []
  }, 
  {
@@ -22921,7 +22921,7 @@
   "family": "Z32F0641", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "Z32F0641.svd", 
   "rom": []
  }, 
  {
@@ -22930,7 +22930,7 @@
   "family": "Z32F1281", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "Z32F1281.svd", 
   "rom": []
  }, 
  {
@@ -22939,7 +22939,7 @@
   "family": "Z32F1281", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "Z32F1281.svd", 
   "rom": []
  }, 
  {
@@ -22948,7 +22948,7 @@
   "family": "Z32F3841", 
   "ram": [], 
   "cpu_core": "ARM Cortex-M3", 
-  "svd_file": "", 
+  "svd_file": "Z32F3841.svd", 
   "rom": []
  }, 
  {
@@ -23030,7 +23030,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "CM41x_M4.svd", 
   "rom": [
    {
     "size": "0x00001000", 
@@ -23056,7 +23056,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23077,7 +23077,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23098,7 +23098,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23119,7 +23119,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -23140,7 +23140,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23161,7 +23161,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23182,7 +23182,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23203,7 +23203,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23224,7 +23224,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23245,7 +23245,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23266,7 +23266,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23287,7 +23287,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23308,7 +23308,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23329,7 +23329,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23350,7 +23350,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -23371,7 +23371,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23392,7 +23392,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23413,7 +23413,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23434,7 +23434,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -23455,7 +23455,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23476,7 +23476,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23497,7 +23497,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23518,7 +23518,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23539,7 +23539,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23560,7 +23560,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23581,7 +23581,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x04000", 
@@ -23602,7 +23602,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x08000", 
@@ -23623,7 +23623,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x10000", 
@@ -23644,7 +23644,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "", 
+  "svd_file": "GD32F3x0.svd", 
   "rom": [
    {
     "size": "0x20000", 
@@ -40444,7 +40444,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "SVD\\nrf52810.svd", 
+  "svd_file": "nrf52810.svd", 
   "rom": [
    {
     "size": "0x30000", 
@@ -40465,7 +40465,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "SVD\\nrf52.svd", 
+  "svd_file": "nrf52.svd", 
   "rom": [
    {
     "size": "0x80000", 
@@ -40486,7 +40486,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "SVD\\nrf52.svd", 
+  "svd_file": "nrf52.svd", 
   "rom": [
    {
     "size": "0x40000", 
@@ -40507,7 +40507,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M4", 
-  "svd_file": "SVD\\nrf52840.svd", 
+  "svd_file": "nrf52840.svd", 
   "rom": [
    {
     "size": "0x100000", 
@@ -40756,7 +40756,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70Q19.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -40808,7 +40808,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70J20.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -40860,7 +40860,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70J20.svd", 
   "rom": [
    {
     "size": "0x00200000", 
@@ -40912,7 +40912,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70N20.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -40964,7 +40964,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70N20.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -41016,7 +41016,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70N20.svd", 
   "rom": [
    {
     "size": "0x00200000", 
@@ -41068,7 +41068,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70N20.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -41120,7 +41120,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70Q19.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -41172,7 +41172,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAME70J20.svd", 
   "rom": [
    {
     "size": "0x00200000", 
@@ -41224,7 +41224,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70J20.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -41276,7 +41276,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70Q21.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -41328,7 +41328,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70Q21.svd", 
   "rom": [
    {
     "size": "0x00200000", 
@@ -41380,7 +41380,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70J19.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -41432,7 +41432,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70Q20.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -41484,7 +41484,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70J20.svd", 
   "rom": [
    {
     "size": "0x00200000", 
@@ -41536,7 +41536,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70Q21.svd", 
   "rom": [
    {
     "size": "0x00080000", 
@@ -41588,7 +41588,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70J19.svd", 
   "rom": [
    {
     "size": "0x00100000", 
@@ -41640,7 +41640,7 @@
    }
   ], 
   "cpu_core": "ARM Cortex-M7", 
-  "svd_file": "", 
+  "svd_file": "ATSAMS70N19.svd", 
   "rom": [
    {
     "size": "0x00200000", 
