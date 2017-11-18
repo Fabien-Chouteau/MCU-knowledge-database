@@ -24,6 +24,7 @@ def to_vendor_symbol(s):
 def generate_kconfig_mcus(database,
                           filename,
                           svd_dir_template,
+                          trap_dir_template,
                           ld_script_template,
                           header=None,
                           footer=None):
@@ -37,8 +38,13 @@ def generate_kconfig_mcus(database,
                                               name=mcu['name'],
                                               vendor=mcu['vendor'],
                                               family=mcu['family'])
+            trap_dir = trap_dir_template.format(svd=mcu['svd_file'][:-4],
+                                                name=mcu['name'],
+                                                vendor=mcu['vendor'],
+                                                family=mcu['family'])
         else:
             svd_dir = None
+            trap_dir = None
 
         config += "config %s\n" % symbol
         config += "      bool\n"
@@ -60,6 +66,12 @@ def generate_kconfig_mcus(database,
             config += "   config MCU_SVD_%s\n" % to_symbol(mcu['svd_file'][:-4])
             config += "         bool\n"
             config += "         default y\n"
+        if trap_dir:
+            config += "   config MCU_Trap_Handlers_%s\n" % to_symbol(mcu['name'])
+            config += "         def_bool y\n"
+            config += "         depends on Include_Trap_Handler_Vector\n"
+            config += "         option source_dir=\"%s\"\n" % trap_dir
+
         config += "   config MCU_LD_Script_Path\n"
         config += "         string\n"
         config += "         default \"%s\"\n" % ld_script_template.format (name=mcu['name'],
