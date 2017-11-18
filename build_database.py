@@ -1,5 +1,5 @@
 import json
-from extractors import stm32, atmel, nordic
+from extractors import stm32, cmsis_pdsc
 
 from optparse import OptionParser
 import os.path
@@ -10,6 +10,9 @@ parser.add_option("", "--stm32_targets_xml", dest="stm32_targets_xml",
 
 parser.add_option("", "--atmel_packs_dir", dest="atmel_packs_dir",
                   help="Directory containing ATMEL packs (with .pdsc files)")
+
+parser.add_option("", "--cmsis_pdsc_dir", dest="cmsis_pdsc_dir",
+                  help="Directory containing CMSIS .pdsc files")
 
 parser.add_option("-o", "--output_file", dest="out_file",
                   help="Path of the json output file")
@@ -26,12 +29,14 @@ else:
 
 if options.atmel_packs_dir:
     # Get Atmel MCU info
-    atmel.extract(options.atmel_packs_dir, mcus)
+    cmsis_pdsc.extract(options.atmel_packs_dir, mcus)
 else:
     print "Warning: ATMEL packs directory not specified"
 
-# Get Nordic MCU info
-nordic.extract(mcus)
+if options.cmsis_pdsc_dir:
+    cmsis_pdsc.extract(options.cmsis_pdsc_dir, mcus)
+else:
+    print "Warning: CMSIS pdsc directory not specified"
 
 print "Number of MCUs: %d" % len(mcus)
 
