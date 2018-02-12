@@ -4,12 +4,15 @@ import os
 import os.path
 from xml.dom import minidom
 
+proc_attributes = ['core', 'coreVersion', 'endian', 'clock', 'fpu', 'mpu']
+
 def update_proc_info(proc_info, node):
     processor = node.getElementsByTagName('processor')
     if len(processor) != 0:
-        core = processor[0].getAttribute('Dcore')
-        if core != "":
-            proc_info['core'] = core
+        for attr in proc_attributes:
+            value = processor[0].getAttribute('D' + attr)
+            if value != "":
+                proc_info[attr] = value
 
 def update_debug_info(debug_info, node):
     debug = node.getElementsByTagName('debug')
@@ -67,11 +70,16 @@ def parse_device(mcus, node, vendor_id, familyname, proc_info, debug_info):
     mcu_info = {}
     mcu_info['name']     = mcu_name
     mcu_info['family']   = familyname
-    mcu_info['cpu_core'] = core
     mcu_info['svd_file'] = svdfile
     mcu_info['ram']      = ram_list
     mcu_info['rom']      = rom_list
     mcu_info['vendor']   = vendor_id
+    mcu_info['cpu_core'] = core
+
+    for attr in proc_attributes:
+        if attr != 'core' and attr in proc_info:
+            mcu_info[attr] = proc_info[attr]
+
 
     mcus.append(mcu_info)
 
